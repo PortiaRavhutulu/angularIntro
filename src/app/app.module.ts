@@ -8,12 +8,14 @@ import { WelcomeComponent } from './components/welcome/welcome.component';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 import { ProductService } from './services/product.service';
+import { CreateComponent } from './components/create/create.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    CreateComponent
   ],
   imports: [
     BrowserModule,
